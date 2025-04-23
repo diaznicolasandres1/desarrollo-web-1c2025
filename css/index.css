@@ -1,0 +1,57 @@
+.enlaces-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.enlace {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.enlace:hover {
+    transform: scale(1.1);
+}
+
+.enlace img {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cita {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.tabla-tiempos {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabla-encabezado {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.tabla-celda {
+    padding: 12px;
+    border: 1px solid #eee;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.tabla-celda:hover {
+    background-color: #f5f5f5;
+} 

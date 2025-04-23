@@ -1,0 +1,62 @@
+.contenedor-pagina {
+    display: flex;
+    min-height: calc(100vh - 150px);
+    margin-top: 0;
+}
+
+.barra-lateral {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.barra-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barra-lateral li {
+    margin-bottom: 15px;
+}
+
+.barra-lateral a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.contenido-principal {
+    flex: 1;
+    padding: 20px;
+}
+
+.contenedor-playlist {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seccion-playlist {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.seccion-playlist:last-child {
+    margin-bottom: 0;
+}
+
+.seccion-playlist iframe {
+    margin-top: 20px;
+}
+
+.titulo-categoria {
+    color: #0066cc;
+    font-size: 1.2em;
+    margin: 20px 0 10px 0;
+    padding-left: 10px;
+    border-left: 3px solid #0066cc;
+} 
